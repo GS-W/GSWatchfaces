@@ -5,6 +5,7 @@ const fs = require('fs');
 // Add the package names you want to showcase here
 const targetPackages = [
     'com.gs.watchface.weather11',
+    'com.watchfacestudio.per27'
 ];
 
 // Helper to infer the watch face type from text
