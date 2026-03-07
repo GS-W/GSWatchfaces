@@ -1,0 +1,9 @@
+{
+  "name": "watchface-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes Play Store for watch face data",
+  "main": "scraper.js",
+  "dependencies": {
+    "google-play-scraper": "^10.0.0"
+  }
+}
