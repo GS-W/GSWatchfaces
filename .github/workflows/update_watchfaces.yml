@@ -17,6 +17,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: master
+          # Forces GitHub to download the full history, preventing push conflicts
+          fetch-depth: 0 
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -30,18 +32,8 @@ jobs:
         run: node scraper.js
 
       - name: Commit and Push Changes
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add watchfaces.json
-          
-          # Check if there are changes
-          if git diff-index --quiet HEAD; then
-            echo "No changes in watch faces data to commit."
-          else
-            git commit -m "chore: auto-update watchfaces.json data"
-            # Bulletproof sync before pushing
-            git fetch origin master
-            git pull --rebase origin master
-            git push origin master
-          fi
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-update watchfaces.json data"
+          file_pattern: "watchfaces.json"
+          branch: master
