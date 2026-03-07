@@ -2,9 +2,7 @@ name: Update Watch Faces JSON
 
 on:
   schedule:
-    # Runs at 00:00 UTC every day
     - cron: '0 0 * * *'
-  # Allows you to trigger the run manually from the GitHub Actions tab
   workflow_dispatch:
 
 permissions:
@@ -17,6 +15,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          ref: master
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -35,11 +35,13 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add watchfaces.json
           
-          # Only commit if there are actual changes to the JSON file
+          # Check if there are changes
           if git diff-index --quiet HEAD; then
             echo "No changes in watch faces data to commit."
           else
             git commit -m "chore: auto-update watchfaces.json data"
+            # Bulletproof sync before pushing
+            git fetch origin master
             git pull --rebase origin master
-            git push
+            git push origin master
           fi
