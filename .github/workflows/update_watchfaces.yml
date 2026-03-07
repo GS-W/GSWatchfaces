@@ -40,5 +40,6 @@ jobs:
             echo "No changes in watch faces data to commit."
           else
             git commit -m "chore: auto-update watchfaces.json data"
+            git pull --rebase origin master
             git push
           fi
