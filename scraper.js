@@ -1,4 +1,5 @@
-const gplay = require('google-play-scraper');
+const gplayRaw = require('google-play-scraper');
+const gplay = gplayRaw.default || gplayRaw; // Unwraps it safely
 const fs = require('fs');
 
 // Add the package names you want to showcase here
@@ -25,7 +26,12 @@ async function generateShowcaseData() {
     for (const pkg of targetPackages) {
         try {
             // Fetch data from the Play Store
-            const appData = await gplay.app({ appId: pkg });
+            // const appData = await gplay.app({ appId: pkg });
+            const appData = await gplay.app({ 
+                appId: pkg,
+                lang: 'en',
+                country: 'us' // Change this if your apps are region-locked to Europe, etc.
+            });
 
             // Structure the data to match your Kotlin model
             const showcaseItem = {
