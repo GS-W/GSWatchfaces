@@ -3,9 +3,7 @@ const fs = require('fs');
 
 // Add the package names you want to showcase here
 const targetPackages = [
-    'com.bosenko.watchface.marinecommander',
-    'com.benoitletondor.pixelminimalwatchface',
-    // Add more packages...
+    'com.gs.watchface.weather11',
 ];
 
 // Helper to infer the watch face type from text
