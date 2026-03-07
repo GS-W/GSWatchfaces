@@ -1,1 +1,16 @@
-[]
+[
+    {
+    "packageName": "com.gs.watchface.weather11",
+    "appName": "GS Weather 11 Hybrid Watchface",
+    "developer": "GS Watchfaces",
+    "rating": "4.2",
+    "rawRating": 4.1836734,
+    "downloads": "50,000+",
+    "rawDownloads": 67347,
+    "price": "Free (IAP)",
+    "featureHighlight": "Beyond Time: Weather, Tides, Sun &amp; Moon. Your premium hybrid Wear OS watch face",
+    "iconUrl": "https://play-lh.googleusercontent.com/JRayVGLTh-bfEtJaEr27M9lQ45Wc6zM6OaGmQbCSsxbC-oTxz_vEuQPblw9v_UUdUFU",
+    "heroImageUrl": "https://play-lh.googleusercontent.com/aFEpwMiptYZ5EOlhprmqLFMBkwLvbHaNmc4zki0KY6ynD9ikgFfQ8wvg8bfgXKulLXk",
+    "watchFaceType": "Hybrid"
+  }
+]
