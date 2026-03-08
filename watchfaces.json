@@ -1,5 +1,5 @@
 [
-    {
+  {
     "packageName": "com.gs.watchface.weather11",
     "appName": "GS Weather 11 Hybrid Watchface",
     "developer": "GS Watchfaces",
@@ -12,5 +12,19 @@
     "iconUrl": "https://play-lh.googleusercontent.com/JRayVGLTh-bfEtJaEr27M9lQ45Wc6zM6OaGmQbCSsxbC-oTxz_vEuQPblw9v_UUdUFU",
     "heroImageUrl": "https://play-lh.googleusercontent.com/aFEpwMiptYZ5EOlhprmqLFMBkwLvbHaNmc4zki0KY6ynD9ikgFfQ8wvg8bfgXKulLXk",
     "watchFaceType": "Hybrid"
+  },
+  {
+    "packageName": "com.watchfacestudio.per27",
+    "appName": "PER27 Digital Watch Face",
+    "developer": "PERSONA Watch Face",
+    "rating": "4.1",
+    "rawRating": 4.08,
+    "downloads": "10,000+",
+    "rawDownloads": 28931,
+    "price": "$2.99",
+    "featureHighlight": "PER27 Digital is a clean and data-rich digital watch face for Wear OS.",
+    "iconUrl": "https://play-lh.googleusercontent.com/VBREa33Tk7yKdZXE8_AndM08q_H2WXqM34r4vKUFD5hNSfrCgws761O3ubWY3gO-cfOGNJPcMkCQbGO_kFqF",
+    "heroImageUrl": "https://play-lh.googleusercontent.com/64NPrZcmjJqIakLOP4Jj0pynXucAxlbzrq0_I5h0j5lihrVDnoyi6BdtfGgUukB9ZWQyXYN_CT5ct-Supy9OhQ",
+    "watchFaceType": "Digital"
   }
 ]
