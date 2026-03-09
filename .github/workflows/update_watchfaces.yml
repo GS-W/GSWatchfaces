@@ -33,6 +33,6 @@ jobs:
       - name: Commit and Push Changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: auto-update watchfaces.json data"
-          file_pattern: "watchfaces.json"
+          commit_message: "chore: auto-update watchfaces and strikes data"
+          file_pattern: "watchfaces.json strikes.json"
           branch: master
