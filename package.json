@@ -4,6 +4,6 @@
   "description": "Scrapes Play Store for watch face data",
   "main": "scraper.js",
   "dependencies": {
-    "google-play-scraper": "^10.0.0"
+    "google-play-scraper": "^10.1.2"
   }
 }
