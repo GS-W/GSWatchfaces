@@ -8,7 +8,7 @@ const targetPackages = [
 ];
 
 // Compliance Settings
-const REQUIRED_LINK_OR_TEXT = 'wear os toolset'; // Text or package name to look for
+const REQUIRED_LINK_OR_TEXT = 'wearsssss os toolset'; // Text or package name to look for
 const MAX_STRIKES = 3;
 const STRIKES_FILE = './strikes.json';
 const OUTPUT_FILE = './watchfaces.json';
