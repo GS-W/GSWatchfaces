@@ -4,7 +4,8 @@ const fs = require('fs');
 
 // Configuration
 const targetPackages = [
-    'com.watchfacestudio.fw'
+    'com.watchfacestudio.fw',
+    'com.watchfacestudio.fw2'
 ];
 
 // Compliance Settings
