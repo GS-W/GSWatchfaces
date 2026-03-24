@@ -4,7 +4,7 @@ const fs = require('fs');
 
 // Configuration
 const targetPackages = [
-    'com.gs.watchface.weather11'
+    'com.watchfacestudio.fw'
 ];
 
 // Compliance Settings
