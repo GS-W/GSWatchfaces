@@ -84,7 +84,7 @@ async function generateShowcaseData() {
                     //rawRating: appData.score,
                     //downloads: appData.installs,
                     //rawDownloads: appData.maxInstalls,
-                    //price: appData.free ? (appData.offersIAP ? "Free (IAP)" : "Free") : appData.priceText,
+                    price: appData.free ? (appData.offersIAP ? "Free (IAP)" : "Free") : appData.priceText,
                     featureHighlight: appData.summary,
                     iconUrl: appData.icon,
                     heroImageUrl: appData.headerImage,
