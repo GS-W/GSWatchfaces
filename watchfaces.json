@@ -16,7 +16,27 @@
     "price": "$0.49",
     "featureHighlight": "A field watchface for wear os with  black background and color customizations",
     "iconUrl": "https://play-lh.googleusercontent.com/V0OHal1cQwq_flEdff8d90-QhENudnmRviMAM7jymuiay1fJFX1wYNbw0ytn0jpBJ9wpZsa-OVzNsgKoX6Ci",
-    "heroImageUrl": "https://play-lh.googleusercontent.com/QRiBPH2uMVXHyhpsqPnjjROeNqV2kNWqrbo5JliERSUIXm2OmxL4ZAtaf0Rsqwn4F27sAf2onApgI5CJhyqI",
+    "heroImageUrl": "https://play-lh.googleusercontent.com/d5G3K2T880lRKvQbAFQodnDZXmbGLnmSOVNzn08b9vdsR3X2YTrjLpsmkfmvhOP76HD37bNQt_-FFU-LlwiI",
     "watchFaceType": "Standard"
+  },
+  {
+    "packageName": "com.watchfacestudio.fgwatch",
+    "appName": "Field Analog Bright Wear OS 5+",
+    "developer": "OQ Watchfaces",
+    "price": "$0.49",
+    "featureHighlight": "A vibrant, colorful, watchface loaded with many customization options.",
+    "iconUrl": "https://play-lh.googleusercontent.com/Oev9uu_5V1kWF-y1dcA_10E0bDxWmVbCHzuS-hJO5uqAnNKvSk6bEobUL3RjKJiZKg",
+    "heroImageUrl": "https://play-lh.googleusercontent.com/zIhOQSAcsBIXUYyCTiFlL6eYE7mnq_MG5tjrMbqjC_qSN4HVATpge5Arm8KeUAYLULY",
+    "watchFaceType": "Analog"
+  },
+  {
+    "packageName": "com.watchfacestudio.fgwatchd",
+    "appName": "Field Analog Dark Wear OS 5+",
+    "developer": "OQ Watchfaces",
+    "price": "$0.49",
+    "featureHighlight": "Dark Analog Field WF for Wear OS 5+ with many color &amp; Customization options.",
+    "iconUrl": "https://play-lh.googleusercontent.com/F8aMfGzXL6AuqC4_r1dz_TVlZ_UMTReNKdqDS1fYSJCcF93VbvY03kmPO_IUWfZl5wVrxhjjGD0lptesOGrY4A",
+    "heroImageUrl": "https://play-lh.googleusercontent.com/mQzGbqsv_4EjErstyc7NJLySO2UVPju3YWMvPAukNJ6n4n1jzcNb5qGS_6_pqnyBLrg",
+    "watchFaceType": "Analog"
   }
 ]
