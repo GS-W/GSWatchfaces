@@ -4,7 +4,7 @@ const fs = require('fs');
 
 // Configuration
 const targetPackages = [
-    'watch.richface.androidwear.digitalvision'
+    'watch.richface.androidwear.digitalvision',
     'com.watchfacestudio.fw',
     'com.watchfacestudio.fw2',
     'com.watchfacestudio.fgwatch',
