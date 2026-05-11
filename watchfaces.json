@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "watch.richface.androidwear.digitalvision",
+    "appName": "Digital Vision Watch Face",
+    "developer": "RichFace",
+    "price": "Free (IAP)",
+    "featureHighlight": "Digital Vision is a digital watch face and fully supported for Wear OS",
+    "iconUrl": "https://play-lh.googleusercontent.com/_TmA4oeuNbiGv1EezL-DnpWhPXO_nI7T1uERuXwCkg3wopxiqxVC9Nk7byZVkMs80qTHIWrtmb6ZPEZBj5HDi3Q",
+    "heroImageUrl": "https://play-lh.googleusercontent.com/YcRYQO5-P-hYzZqL12AdBAOEqauVle8hlL-8Hr_69j2gOg1QFKRZyHJ5sTnLYr6McpNfVOUc6Kcs1l7ll7zyPQ",
+    "watchFaceType": "Digital"
+  },
+  {
     "packageName": "com.watchfacestudio.fw",
     "appName": "Field Watch 1 Wear OS 5+",
     "developer": "OQ Watchfaces",
