@@ -8,7 +8,7 @@ const targetPackages = [
     'com.watchfacestudio.fw2',
     'com.watchfacestudio.fgwatch',
     'com.watchfacestudio.fgwatchd',
-    'watch.richface.androidwear.digitalvision'
+    'watch.richface.marketplace'
 ];
 
 // Compliance Settings
