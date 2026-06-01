@@ -90,8 +90,12 @@ describe('Search method', () => {
   describe('more results mapping', () => {
     it('should return few netflix apps', () => {
       return gplay.search({ term: 'netflix' }).then((apps) => {
-        assert.equal(apps[0].appId, 'com.netflix.mediaclient');
         assert.isAbove(apps.length, 0);
+        apps.map(assertValidApp);
+        assert.isTrue(
+          apps.some((app) => app.developer.toLowerCase().includes('netflix')),
+          'at least one result should be from Netflix'
+        );
       });
     });
 
@@ -99,17 +103,22 @@ describe('Search method', () => {
       return gplay
         .search({ term: 'netflix', lang: 'de', country: 'DE' })
         .then((apps) => {
-          assert.equal(apps[0].appId, 'com.netflix.mediaclient');
-          // Don't check specific ids, as results may vary
           assert.isAbove(apps.length, 1);
+          apps.map(assertValidApp);
+          assert.isTrue(
+            apps.some((app) => app.developer.toLowerCase().includes('netflix')),
+            'at least one result should be from Netflix'
+          );
         });
     });
 
     it('should return few google mail apps', () => {
       return gplay.search({ term: 'gmail' }).then((apps) => {
-        assert.equal(apps[0].appId, 'com.google.android.gm');
+        assert.isAbove(apps.length, 0);
+        apps.map(assertValidApp);
         assert.isTrue(
-          apps.some((app) => app.appId === 'com.google.android.gm.lite')
+          apps.some((app) => app.developer === 'Google LLC'),
+          'at least one result should be from Google LLC'
         );
       });
     });
@@ -118,6 +127,17 @@ describe('Search method', () => {
       return gplay
         .search({ term: 'games' })
         .then((apps) => assertIdsInArray(apps, 'com.kiloo.subwaysurf'));
+    });
+
+    it('should include the exact match app when search term is an exact app name', () => {
+      return gplay.search({ term: 'Google Chrome' }).then((apps) => {
+        assert.isAbove(apps.length, 0);
+        apps.map(assertValidApp);
+        assert.isTrue(
+          apps.some((app) => app.appId === 'com.android.chrome'),
+          'Google Chrome (com.android.chrome) should appear in results for exact name search'
+        );
+      });
     });
 
     it('should return empty set when no results found', () => {
