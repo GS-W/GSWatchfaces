@@ -41,12 +41,12 @@
   },
   {
     "packageName": "watch.richface.marketplace",
-    "appName": "RichFace Watch Faces",
+    "appName": "RichFace: Watch Faces",
     "developer": "RichFace",
     "price": "Free (IAP)",
-    "featureHighlight": "Explore premium WearOS watch faces with Crypto, Stocks &amp; Battery widgets!",
+    "featureHighlight": "Explore WearOS watch faces focusing on design, animations and battery efficiency",
     "iconUrl": "https://play-lh.googleusercontent.com/xfgw2E-ZCod8jnht0B3blV7THxI0B6pqGitTf0YsM1Dpm_09gPMG7_1cCGGxU6aXdQ_TtmFWiam1xwey2qqVnRs",
     "heroImageUrl": "https://play-lh.googleusercontent.com/a6rTiRCIOU3EKgo5hxrnEHvo5HTXL7BfJ2XQDzdxBFu5oZGzx7yjfmv08SELewmM5UrEWFV3E1ndn95dz-zbGC8",
-    "watchFaceType": "Standard"
+    "watchFaceType": "Analog"
   }
 ]
