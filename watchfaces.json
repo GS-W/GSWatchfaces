@@ -38,15 +38,5 @@
     "iconUrl": "https://play-lh.googleusercontent.com/F8aMfGzXL6AuqC4_r1dz_TVlZ_UMTReNKdqDS1fYSJCcF93VbvY03kmPO_IUWfZl5wVrxhjjGD0lptesOGrY4A",
     "heroImageUrl": "https://play-lh.googleusercontent.com/wtpDcxyeI1pIqkSb1bnqWSxXguH7i1jf_TJGCrzu8SFns90-gfMSm4JiA0UBJZyPAWAOrXSGtqmQNUpWlMV7mO0",
     "watchFaceType": "Analog"
-  },
-  {
-    "packageName": "watch.richface.marketplace",
-    "appName": "RichFace: Watch Faces Wear OS",
-    "developer": "RichFace",
-    "price": "Free (IAP)",
-    "featureHighlight": "Premium Watch Face catalog for Wear OS. Classic, digital &amp; custom watchfaces",
-    "iconUrl": "https://play-lh.googleusercontent.com/xfgw2E-ZCod8jnht0B3blV7THxI0B6pqGitTf0YsM1Dpm_09gPMG7_1cCGGxU6aXdQ_TtmFWiam1xwey2qqVnRs",
-    "heroImageUrl": "https://play-lh.googleusercontent.com/iYJ222Ev7_wxJXsj0QCqLqg2F4Uac_A7IsqVex7Adsxnp0W7-YYMapaFogJlZC0H6Og3O0rZj13lnxXx9t0A6Ls",
-    "watchFaceType": "Hybrid"
   }
 ]
